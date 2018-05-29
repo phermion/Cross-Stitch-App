@@ -1,0 +1,78 @@
+@function sqrt($r) {
+    $x0: 1;
+    $x1: $x0;
+    @for $i from 1 through 10 {
+        $x1: $x0 - ($x0 * $x0 - abs($r)) / (2 * $x0);
+        $x0: $x1;
+    }
+    @return $x1;
+}
+
+.c-stitchBlock {
+    border: 1px solid #fff;
+    border-width: 0 1px 1px 0;
+    cursor: pointer;
+    box-sizing: border-box;
+    display: block;
+    position: relative;
+
+    &:hover {
+        background-color: rgba(0,0,0,0.2);
+    }
+
+    &-stitch {
+        width: 100%;
+        height: 100%;
+    }
+
+    &-stitch-left,
+    &-stitch-right {
+        display: none;
+        content: '';
+        border-radius: 50%;
+        position: absolute;
+        transform-origin: 50% 50%;
+        background-color: inherit;
+
+        &::before {
+            content: '';
+            border-radius: 50%;
+            display: block;
+            width: 100%;
+            height: 100%;
+            background-color: transparent;
+            box-shadow: -1px 0 5px 0px rgba(0, 0, 0, 0.2);
+        }
+    }
+
+    &-stitch-right {
+        transform: rotate(45deg);
+        &::after {
+            content: "";
+            display: block;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            background: linear-gradient(90deg,transparent 20%, white, transparent 90%);
+            top: 0;
+            border-radius: 50%;
+            opacity: 0.3;
+        }
+    }
+    &-stitch-left {
+        transform: rotate(-45deg);
+    }
+}
+
+.c-canvas--realistic {
+    .c-stitchBlock {
+        border: 0;
+        &-stitch {
+            background: none!important;
+        }
+        &-stitch-left,
+        &-stitch-right {
+            display: block;
+        }
+    }
+}

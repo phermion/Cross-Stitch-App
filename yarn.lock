@@ -16,6 +16,13 @@
     esutils "^2.0.2"
     js-tokens "^3.0.0"
 
+"@babel/runtime@^7.0.0-beta.48":
+  version "7.0.0-beta.49"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.0.0-beta.49.tgz#03b3bf07eb982072c8e851dd2ddd5110282e61bf"
+  dependencies:
+    core-js "^2.5.6"
+    regenerator-runtime "^0.11.1"
+
 "@samverschueren/stream-to-observable@^0.3.0":
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/@samverschueren/stream-to-observable/-/stream-to-observable-0.3.0.tgz#ecdf48d532c58ea477acfcab80348424f8d0662f"
@@ -25,6 +32,10 @@
 "@types/jest@^22.2.3":
   version "22.2.3"
   resolved "https://registry.yarnpkg.com/@types/jest/-/jest-22.2.3.tgz#0157c0316dc3722c43a7b71de3fdf3acbccef10d"
+
+"@types/jquery@*":
+  version "3.3.2"
+  resolved "https://registry.yarnpkg.com/@types/jquery/-/jquery-3.3.2.tgz#8700226bdde24b6f98e3a60126dbaab3b2a3ab41"
 
 "@types/node@*", "@types/node@^10.1.2":
   version "10.1.2"
@@ -42,6 +53,244 @@
   resolved "https://registry.yarnpkg.com/@types/react/-/react-16.3.14.tgz#f90ac6834de172e13ecca430dcb6814744225d36"
   dependencies:
     csstype "^2.2.0"
+
+"@types/rx-core-binding@*":
+  version "4.0.4"
+  resolved "https://registry.yarnpkg.com/@types/rx-core-binding/-/rx-core-binding-4.0.4.tgz#d969d32f15a62b89e2862c17b3ee78fe329818d3"
+  dependencies:
+    "@types/rx-core" "*"
+
+"@types/rx-core@*":
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/@types/rx-core/-/rx-core-4.0.3.tgz#0b3354b1238cedbe2b74f6326f139dbc7a591d60"
+
+"@types/rx-lite-aggregates@*":
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/@types/rx-lite-aggregates/-/rx-lite-aggregates-4.0.3.tgz#6efb2b7f3d5f07183a1cb2bd4b1371d7073384c2"
+  dependencies:
+    "@types/rx-lite" "*"
+
+"@types/rx-lite-async@*":
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/@types/rx-lite-async/-/rx-lite-async-4.0.2.tgz#27fbf0caeff029f41e2d2aae638b05e91ceb600c"
+  dependencies:
+    "@types/rx-lite" "*"
+
+"@types/rx-lite-backpressure@*":
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/@types/rx-lite-backpressure/-/rx-lite-backpressure-4.0.3.tgz#05abb19bdf87cc740196c355e5d0b37bb50b5d56"
+  dependencies:
+    "@types/rx-lite" "*"
+
+"@types/rx-lite-coincidence@*":
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/@types/rx-lite-coincidence/-/rx-lite-coincidence-4.0.3.tgz#80bd69acc4054a15cdc1638e2dc8843498cd85c0"
+  dependencies:
+    "@types/rx-lite" "*"
+
+"@types/rx-lite-experimental@*":
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/@types/rx-lite-experimental/-/rx-lite-experimental-4.0.1.tgz#c532f5cbdf3f2c15da16ded8930d1b2984023cbd"
+  dependencies:
+    "@types/rx-lite" "*"
+
+"@types/rx-lite-joinpatterns@*":
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/@types/rx-lite-joinpatterns/-/rx-lite-joinpatterns-4.0.1.tgz#f70fe370518a8432f29158cc92ffb56b4e4afc3e"
+  dependencies:
+    "@types/rx-lite" "*"
+
+"@types/rx-lite-testing@*":
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/@types/rx-lite-testing/-/rx-lite-testing-4.0.1.tgz#21b19d11f4dfd6ffef5a9d1648e9c8879bfe21e9"
+  dependencies:
+    "@types/rx-lite-virtualtime" "*"
+
+"@types/rx-lite-time@*":
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/@types/rx-lite-time/-/rx-lite-time-4.0.3.tgz#0eda65474570237598f3448b845d2696f2dbb1c4"
+  dependencies:
+    "@types/rx-lite" "*"
+
+"@types/rx-lite-virtualtime@*":
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/@types/rx-lite-virtualtime/-/rx-lite-virtualtime-4.0.3.tgz#4b30cacd0fe2e53af29f04f7438584c7d3959537"
+  dependencies:
+    "@types/rx-lite" "*"
+
+"@types/rx-lite@*":
+  version "4.0.5"
+  resolved "https://registry.yarnpkg.com/@types/rx-lite/-/rx-lite-4.0.5.tgz#b3581525dff69423798daa9a0d33c1e66a5e8c4c"
+  dependencies:
+    "@types/rx-core" "*"
+    "@types/rx-core-binding" "*"
+
+"@types/rx@^4.1.1":
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/@types/rx/-/rx-4.1.1.tgz#598fc94a56baed975f194574e0f572fd8e627a48"
+  dependencies:
+    "@types/rx-core" "*"
+    "@types/rx-core-binding" "*"
+    "@types/rx-lite" "*"
+    "@types/rx-lite-aggregates" "*"
+    "@types/rx-lite-async" "*"
+    "@types/rx-lite-backpressure" "*"
+    "@types/rx-lite-coincidence" "*"
+    "@types/rx-lite-experimental" "*"
+    "@types/rx-lite-joinpatterns" "*"
+    "@types/rx-lite-testing" "*"
+    "@types/rx-lite-time" "*"
+    "@types/rx-lite-virtualtime" "*"
+
+"@types/semantic-ui-accordion@*":
+  version "2.2.2"
+  resolved "https://registry.yarnpkg.com/@types/semantic-ui-accordion/-/semantic-ui-accordion-2.2.2.tgz#2f3b9d60a981d9eddc3705619079defaacc3aee0"
+  dependencies:
+    "@types/jquery" "*"
+
+"@types/semantic-ui-api@*":
+  version "2.2.4"
+  resolved "https://registry.yarnpkg.com/@types/semantic-ui-api/-/semantic-ui-api-2.2.4.tgz#ea9cad381b38b77f95fa3bf679d7c5273c7b20dd"
+  dependencies:
+    "@types/jquery" "*"
+
+"@types/semantic-ui-checkbox@*":
+  version "2.2.2"
+  resolved "https://registry.yarnpkg.com/@types/semantic-ui-checkbox/-/semantic-ui-checkbox-2.2.2.tgz#bb19b20d503103a724c9dc79f71132edb092a362"
+  dependencies:
+    "@types/jquery" "*"
+
+"@types/semantic-ui-dimmer@*":
+  version "2.2.2"
+  resolved "https://registry.yarnpkg.com/@types/semantic-ui-dimmer/-/semantic-ui-dimmer-2.2.2.tgz#667185161c31d046a51a6d71097d2909829e1423"
+  dependencies:
+    "@types/jquery" "*"
+
+"@types/semantic-ui-dropdown@*":
+  version "2.2.2"
+  resolved "https://registry.yarnpkg.com/@types/semantic-ui-dropdown/-/semantic-ui-dropdown-2.2.2.tgz#455c95c2cb1dc665e80746fa5117aa850156da4c"
+  dependencies:
+    "@types/jquery" "*"
+    "@types/semantic-ui-api" "*"
+
+"@types/semantic-ui-embed@*":
+  version "2.2.2"
+  resolved "https://registry.yarnpkg.com/@types/semantic-ui-embed/-/semantic-ui-embed-2.2.2.tgz#5b851bc966c06812550410348da7f8ea866e0c02"
+  dependencies:
+    "@types/jquery" "*"
+
+"@types/semantic-ui-form@*":
+  version "2.2.4"
+  resolved "https://registry.yarnpkg.com/@types/semantic-ui-form/-/semantic-ui-form-2.2.4.tgz#81ef02ff35c21c7aa102483463800a68cc0863b8"
+  dependencies:
+    "@types/jquery" "*"
+
+"@types/semantic-ui-modal@*":
+  version "2.2.3"
+  resolved "https://registry.yarnpkg.com/@types/semantic-ui-modal/-/semantic-ui-modal-2.2.3.tgz#482e8ca3323b22e7247ff92249a52a8bc2fccc6d"
+  dependencies:
+    "@types/jquery" "*"
+    "@types/semantic-ui-dimmer" "*"
+
+"@types/semantic-ui-nag@*":
+  version "2.2.2"
+  resolved "https://registry.yarnpkg.com/@types/semantic-ui-nag/-/semantic-ui-nag-2.2.2.tgz#93e9cc410aa17b273ef73a705666815a7c2a09a6"
+  dependencies:
+    "@types/jquery" "*"
+
+"@types/semantic-ui-popup@*":
+  version "2.2.3"
+  resolved "https://registry.yarnpkg.com/@types/semantic-ui-popup/-/semantic-ui-popup-2.2.3.tgz#cdf391d0e16ffbfdc34c7fee85e85d20a9323c5a"
+  dependencies:
+    "@types/jquery" "*"
+
+"@types/semantic-ui-progress@*":
+  version "2.2.3"
+  resolved "https://registry.yarnpkg.com/@types/semantic-ui-progress/-/semantic-ui-progress-2.2.3.tgz#2ad3e2b69c5c5927aa4c11634cdf0a04ab53b36f"
+  dependencies:
+    "@types/jquery" "*"
+
+"@types/semantic-ui-rating@*":
+  version "2.2.2"
+  resolved "https://registry.yarnpkg.com/@types/semantic-ui-rating/-/semantic-ui-rating-2.2.2.tgz#d35807b61ebc6b4f2a977b430fbd862fa5f5b5a7"
+  dependencies:
+    "@types/jquery" "*"
+
+"@types/semantic-ui-search@*":
+  version "2.2.3"
+  resolved "https://registry.yarnpkg.com/@types/semantic-ui-search/-/semantic-ui-search-2.2.3.tgz#7da1a62ed116a1aa0baee2a9c66196b16f643e13"
+  dependencies:
+    "@types/jquery" "*"
+    "@types/semantic-ui-api" "*"
+
+"@types/semantic-ui-shape@*":
+  version "2.2.2"
+  resolved "https://registry.yarnpkg.com/@types/semantic-ui-shape/-/semantic-ui-shape-2.2.2.tgz#ce3bd95e4ec1127380343910c4766a4f070c1336"
+  dependencies:
+    "@types/jquery" "*"
+
+"@types/semantic-ui-sidebar@*":
+  version "2.2.2"
+  resolved "https://registry.yarnpkg.com/@types/semantic-ui-sidebar/-/semantic-ui-sidebar-2.2.2.tgz#792464d6e381354c8c1e935635c9010b1366f4a9"
+  dependencies:
+    "@types/jquery" "*"
+
+"@types/semantic-ui-site@*":
+  version "2.2.2"
+  resolved "https://registry.yarnpkg.com/@types/semantic-ui-site/-/semantic-ui-site-2.2.2.tgz#25a358ca572aa0e811f2f912ab6872ef897c8bbe"
+  dependencies:
+    "@types/jquery" "*"
+
+"@types/semantic-ui-sticky@*":
+  version "2.2.3"
+  resolved "https://registry.yarnpkg.com/@types/semantic-ui-sticky/-/semantic-ui-sticky-2.2.3.tgz#1317d2eac9b42d8088f8f0f3228684efa0ce6a84"
+  dependencies:
+    "@types/jquery" "*"
+
+"@types/semantic-ui-tab@*":
+  version "2.2.2"
+  resolved "https://registry.yarnpkg.com/@types/semantic-ui-tab/-/semantic-ui-tab-2.2.2.tgz#4bae0c8ac1e970cd93fc31cf99f546e29ac9a069"
+  dependencies:
+    "@types/jquery" "*"
+    "@types/semantic-ui-api" "*"
+
+"@types/semantic-ui-transition@*":
+  version "2.2.2"
+  resolved "https://registry.yarnpkg.com/@types/semantic-ui-transition/-/semantic-ui-transition-2.2.2.tgz#e03d9eec32c962a5c862112f75a53879c3628406"
+  dependencies:
+    "@types/jquery" "*"
+
+"@types/semantic-ui-visibility@*":
+  version "2.2.2"
+  resolved "https://registry.yarnpkg.com/@types/semantic-ui-visibility/-/semantic-ui-visibility-2.2.2.tgz#57934496df3b2b89f1c932cd886a5b011efe22ce"
+  dependencies:
+    "@types/jquery" "*"
+
+"@types/semantic-ui@^2.2.6":
+  version "2.2.6"
+  resolved "https://registry.yarnpkg.com/@types/semantic-ui/-/semantic-ui-2.2.6.tgz#5c38b2c3a92e28501972e3b19c7c8687f68ee2cb"
+  dependencies:
+    "@types/jquery" "*"
+    "@types/semantic-ui-accordion" "*"
+    "@types/semantic-ui-api" "*"
+    "@types/semantic-ui-checkbox" "*"
+    "@types/semantic-ui-dimmer" "*"
+    "@types/semantic-ui-dropdown" "*"
+    "@types/semantic-ui-embed" "*"
+    "@types/semantic-ui-form" "*"
+    "@types/semantic-ui-modal" "*"
+    "@types/semantic-ui-nag" "*"
+    "@types/semantic-ui-popup" "*"
+    "@types/semantic-ui-progress" "*"
+    "@types/semantic-ui-rating" "*"
+    "@types/semantic-ui-search" "*"
+    "@types/semantic-ui-shape" "*"
+    "@types/semantic-ui-sidebar" "*"
+    "@types/semantic-ui-site" "*"
+    "@types/semantic-ui-sticky" "*"
+    "@types/semantic-ui-tab" "*"
+    "@types/semantic-ui-transition" "*"
+    "@types/semantic-ui-visibility" "*"
 
 abab@^1.0.4:
   version "1.0.4"
@@ -1458,6 +1707,10 @@ class-utils@^0.3.5:
     isobject "^3.0.0"
     static-extend "^0.1.1"
 
+classnames@^2.2.5:
+  version "2.2.5"
+  resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.2.5.tgz#fb3801d453467649ef3603c7d61a02bd129bde6d"
+
 clean-css@4.1.x:
   version "4.1.11"
   resolved "https://registry.yarnpkg.com/clean-css/-/clean-css-4.1.11.tgz#2ecdf145aba38f54740f26cefd0ff3e03e125d6a"
@@ -1705,7 +1958,7 @@ core-js@^1.0.0:
   version "1.2.7"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-1.2.7.tgz#652294c14651db28fa93bd2d5ff2983a4f08c636"
 
-core-js@^2.4.0, core-js@^2.5.0:
+core-js@^2.4.0, core-js@^2.5.0, core-js@^2.5.6:
   version "2.5.7"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-2.5.7.tgz#f972608ff0cead68b841a16a932d0b183791814e"
 
@@ -4235,6 +4488,10 @@ jest@22.4.2:
     import-local "^1.0.0"
     jest-cli "^22.4.2"
 
+jquery@x.*:
+  version "3.3.1"
+  resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.3.1.tgz#958ce29e81c9790f31be7792df5d4d95fc57fbca"
+
 js-base64@^2.1.8, js-base64@^2.1.9:
   version "2.4.5"
   resolved "https://registry.yarnpkg.com/js-base64/-/js-base64-2.4.5.tgz#e293cd3c7c82f070d700fc7a1ca0a2e69f101f92"
@@ -4368,6 +4625,10 @@ jsprim@^1.2.2:
     extsprintf "1.3.0"
     json-schema "0.2.3"
     verror "1.10.0"
+
+keyboard-key@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/keyboard-key/-/keyboard-key-1.0.1.tgz#a946294fe59ad5431c63a3ea269f023e51fac6aa"
 
 killable@^1.0.0:
   version "1.0.0"
@@ -5974,7 +6235,7 @@ promise@^7.1.1:
   dependencies:
     asap "~2.0.3"
 
-prop-types@^15.6.0:
+prop-types@^15.6.0, prop-types@^15.6.1:
   version "15.6.1"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.6.1.tgz#36644453564255ddda391191fb3a125cbdf654ca"
   dependencies:
@@ -6318,7 +6579,7 @@ regenerate@^1.2.1:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/regenerate/-/regenerate-1.4.0.tgz#4a856ec4b56e4077c557589cae85e7a4c8869a11"
 
-regenerator-runtime@^0.11.0:
+regenerator-runtime@^0.11.0, regenerator-runtime@^0.11.1:
   version "0.11.1"
   resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.11.1.tgz#be05ad7f9bf7d22e056f9726cee5017fbf19e2e9"
 
@@ -6675,6 +6936,23 @@ selfsigned@^1.9.1:
   resolved "https://registry.yarnpkg.com/selfsigned/-/selfsigned-1.10.3.tgz#d628ecf9e3735f84e8bafba936b3cf85bea43823"
   dependencies:
     node-forge "0.7.5"
+
+semantic-ui-css@^2.3.1:
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/semantic-ui-css/-/semantic-ui-css-2.3.1.tgz#a5485c640c98cce29d8ddde3eff3434566a068e0"
+  dependencies:
+    jquery x.*
+
+semantic-ui-react@^0.80.2:
+  version "0.80.2"
+  resolved "https://registry.yarnpkg.com/semantic-ui-react/-/semantic-ui-react-0.80.2.tgz#a584f6dc485b0617438adc4baf6d1858e54bb930"
+  dependencies:
+    "@babel/runtime" "^7.0.0-beta.48"
+    classnames "^2.2.5"
+    fbjs "^0.8.16"
+    keyboard-key "^1.0.1"
+    lodash "^4.17.10"
+    prop-types "^15.6.1"
 
 semver-compare@^1.0.0:
   version "1.0.0"

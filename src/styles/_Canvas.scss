@@ -1,0 +1,14 @@
+.c-canvas {
+    width: 10 * $stitch-block-width; // default value (overridden by Canvas.tsx)
+    height: 10 * $stitch-block-height; // default value (overridden by Canvas.tsx)
+    display: flex;
+    flex-wrap: wrap;
+    border: $border-standard;
+    box-sizing: content-box;
+
+    &--realistic {
+        border-width: 1px;
+        background-image: url('../images/stitch-background.svg');
+        background-size: $stitch-block-width * 2 $stitch-block-width * 2; // default value (overridden by Canvas.tsx)
+    }
+}
